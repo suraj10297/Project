@@ -1,0 +1,272 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height:50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #a2b9e9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(235, 191, 191);
+}
+
+
+
+.App-link {
+  color: #000000;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.footer{
+
+  margin-top: 0rem;
+  padding: 0rem;
+  background-color: rgb(185, 159, 71);
+  bottom: 10;
+  position:static;
+  width: 100%;
+  height :max-content;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 10;
+
+}
+.home{
+  background-color:rgb(0, 0, 0);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+.cardbody{
+  background-color: rgb(0, 0, 0);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar{
+  background-color:rgb(0, 0, 0);
+  font-family: cur'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifsive;
+  size: 100%;
+
+}
+.nav{
+  background-color: rgb(0, 0, 0);
+  text-size-adjust: 100%;
+}
+.nav-link{
+  text-align: left;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-emphasis-color: rgb(3, 48, 88);
+  size: 100%;
+  color: rgb(1, 30, 56);
+}
+.signup{
+  background-color:grey;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url("https://wallpaperaccess.com/full/834255.jpg");
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  color:orange;
+  font-size: small;
+  /* position : relative; */
+  background-attachment: fixed; 
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%; 
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about{
+  background-image: url("https://wallpaperaccess.com/full/834258.jpg");
+ /*background-image: url(https://www.desktopbackground.org/download/o/2014/03/26/737265_of-gym-quotes-funny-fitness-motivational-1920x1080-hd_1920x1080_h.jpg);*/
+  font-family: cursive;
+
+}
+
+.login{
+  background-color: rgb(138, 98, 98) ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url("https://wallpaperaccess.com/full/834258.jpg");
+  top: 0;
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15%;
+  padding-right: 35%;
+  padding-left: 35%;
+  color: aliceblue;
+  padding-bottom: 15%; 
+}
+
+.admin{
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/273/215/738/pose-tattoo-muscle-muscle-pose-hd-wallpaper-preview.jpg");
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+  color: aliceblue;
+  padding-bottom: 10%; 
+  /* background-position: center;
+  padding-left: 100px;
+  background-size: cover;
+  background-color: #282c34; */
+}
+
+
+.admin-text{
+  padding-left: 40%;
+  color: white;
+}
+
+.button{
+  padding-left: 80%;
+  padding-top: 20%;
+}
+
+.addtrainer{
+ color:burlywood;
+ padding-left: 10%;
+ padding-right: 10%;
+ padding-top: 10%;
+ padding-bottom: 10%;
+ font-size: large;
+ background-image: url(https://wallpaper-house.com/data/out/9/wallpaper2you_350216.jpg);
+ 
+}
+
+.addmembership{
+  background-color: black;
+  background-image: url(https://wallpaper-house.com/data/out/9/wallpaper2you_350221.jpg);
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size:x-large;
+  background-position: center;
+  color: cornsilk;
+}
+.addworkout{
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/81/470/394/men-weightlifting-gyms-bodybuilder-wallpaper-preview.jpg);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-size: x-large;
+  color: aliceblue;
+  background-position: center;
+}
+.trainerpage{
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/62/261/107/pose-fitness-muscle-muscle-athlete-hd-wallpaper-preview.jpg);
+  /* padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-size: x-large;
+  color: aliceblue; */
+  padding-left: 50px;
+  padding-right: 50px;
+  background-size: cover;
+  padding-top: 2%;
+  padding-bottom: 40%;
+  font-size: xx-large;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gym{
+  font-size: 200;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.trainertable{
+  color:#61dafb
+}
+
+.payment{
+  background-position: center;
+  padding-left: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 10%;
+  font-size: x-large;
+  color:cyan;
+  background-image: url(https://st.hzcdn.com/simgs/pictures/home-gyms/bridge-hollow-platinum-homes-by-mark-molthan-img~f681ee14039105f3_14-9861-1-2779728.jpg);
+}
+
+
